@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "CountLine kato-test",
+        "command": "kato-test:countline"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "kato-test",
+          "submenu": [
+            {
+              "label": "CountLine",
+              "command": "kato-test:countline"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
